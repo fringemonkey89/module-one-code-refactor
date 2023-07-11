@@ -1,13 +1,16 @@
+/*this targets all the elements on the page so that they include the padding and border in an element's total width and height */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* this code sets the background color of the body element */
 body {
     background-color: #d9dcd6;
 }
 
+/* the header code deals with the font-family, font color and background color of the h1 element  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,17 @@ body {
     color: #ffffff;
 }
 
+/* the header code deals with the font size of the h1 element and also to display it as an in-line block */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* targets the span element's font color inside the h1 element*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* this code is responsible for the nav elements position, margin, padding and font size and type on the website */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +36,29 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* this code removes the bullet points for each list item */
 .header nav ul {
     list-style-type: none;
 }
 
+/*this code arranges the list items horizontally (across the x-axis*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* this is responsible for the link's font color in the list item */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* this code formats all the paragraph elements font size on the web page */
 p {
     font-size: 16px;
 }
 
+/* this code is responsible for the hero images height, width and position */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +68,58 @@ p {
     background-position: center;
 }
 
+/* the float left class aligns the pictures of the main section articles the left of the paragraph elements */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* the float right class aligns the pictures of the main section articles to the 
+right of the paragraph element */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*this code is responsible for the content sections width, display attribute and margin */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* this sets the article height, background color, font-color and family, and both the margin and padding */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* this sets the article height, background color, font-color and family, and both the margin and padding */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* this sets the article height, background color, font-color and family, and both the margin and padding */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* the code below is repsonible for the aside elements position to the right of the content element */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,108 +131,97 @@ p {
     background-color: #2589bd;
 }
 
+
+/* this code is responsible for the font color in the  benefits article elements */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* this code is responsible for the font color in the  benefits article elements */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* this code is responsible for the font color in the  benefits article elements */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* this code aligns the header in the article element in the center */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* this code aligns the header in the article element in the center */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* this code aligns the header in the article element in the center */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* this sets the width, margin and display type for the image in the aside section's article elements */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* this sets the width, margin and display type for the image in the aside section's article elements */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* this sets the width, margin and display type for the image in the aside section's article elements */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/* this sets the images maximum height in the article element in the main section */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* this sets the images maximum height in the article element in the main section */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* this sets the images maximum height in the article element in the main section */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* this is responsible for the font-soze and margin for the article elements h2 heading in the main section */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* this is responsible for the font-soze and margin for the article elements h2 heading in the main section */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* this is responsible for the font-soze and margin for the article elements h2 heading in the main section */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* targets the footer elements text position, font style and padding */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +229,7 @@ p {
     text-align: center;
 }
 
+/* sets the footer elements heading font-size */
 .footer h2 {
     font-size: 20px;
 }
