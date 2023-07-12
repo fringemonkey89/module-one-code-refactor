@@ -12,7 +12,7 @@ N/A
 To use this guide to it's fullest, you can view the images uploaded on the README file that contains the index.html file without semantic HTML and with semantic HTML.This was done in order to give the user a visual on which code was refactored. You can also access the css stylesheet and view the comments on what code is responsible for each section of the website.  
 
 ## Images
-![](images/challenge 
+![](images/challenge 1a.png) 
 
 ## Credits
 
