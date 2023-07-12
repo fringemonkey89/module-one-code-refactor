@@ -29,4 +29,10 @@ To use this guide to it's fullest, you can view the images uploaded on the READM
 
 N/A
 
+## Link to Website
+
+- https://fringemonkey89.github.io/module-one-code-refactor/
+
 ## License
+
+MIT License
