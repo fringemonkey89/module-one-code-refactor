@@ -11,8 +11,19 @@ N/A
 
 To use this guide to it's fullest, you can view the images uploaded on the README file that contains the index.html file without semantic HTML and with semantic HTML.This was done in order to give the user a visual on which code was refactored. You can also access the css stylesheet and view the comments on what code is responsible for each section of the website.  
 
-## Images
-![](images/non-semantic.png) 
+## Screenshots
+
+The picture below shows the original code without semantic HTML
+<img src="images/non-semantic.png" width="300" height="300">
+
+In this image, we can see some of the semantic elements in the refactored code
+<img src="images/semantic-html.png" width="300" height="300">
+
+In the original index.html the image elements were missing the alt attribute
+<img src="images/inaccessible.png" width="300" height="300">
+
+The refactored code now has the alt attribute added to the image element
+<img src="images/accessible.png" width="300" height="300">
 
 ## Credits
 
